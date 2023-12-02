@@ -53,8 +53,8 @@ func main() {
 
 		var firstAndLast = [2]int{}
 
-		// check if number
 		for i, match := range matches {
+			// check if number
 			num, err := strconv.Atoi(match)
 			if err != nil {
 				// check if a word combo
